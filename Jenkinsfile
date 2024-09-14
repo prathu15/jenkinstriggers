@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building...'
+                sh 'echo "Build completed"'
             }
         }
-        // Add more stages as needed
     }
 }
+
